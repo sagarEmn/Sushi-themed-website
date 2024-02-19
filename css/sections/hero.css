@@ -8,8 +8,9 @@
   flex: 1;
   display: flex;
   flex-direction: column;
+
   position: relative;
-  z-index: 5;
+  z-index: 5
 }
 
 .hero-image img {
@@ -22,6 +23,7 @@
   position: absolute;
   inset: 0;
   width: 100%;
+
   background-color: var(--primary-color);
   z-index: -1;
 }
@@ -30,6 +32,7 @@
   position: absolute;
   bottom: 0;
   padding: 20px;
+
   font-family: var(--playfair-display);
   font-weight: 700;
   font-size: 120px;
@@ -54,13 +57,14 @@
 
 .hero-content-info h1 {
   font-size: 80px;
-  font-weight: 600;
+  font-weight: 600px;
   font-family: var(--playfair-display);
   color: var(--secondary-color);
 }
 
 .hero-content-info p {
   margin: 32px 0 0 32px;
+
   font-family: var(--plus-jakarta-sans);
   color: var(--secondary-color);
   font-size: 18px;
@@ -69,9 +73,10 @@
 
 .hero-content__buttons {
   margin: 41px 0 0 41px;
+
   display: flex;
   flex-wrap: wrap;
-  gap: 56px;
+  gap: 36px;
 }
 
 .hero-content__order-button {
@@ -81,7 +86,9 @@
   outline: none;
   border: none;
   background: var(--secondary-color);
+
   cursor: pointer;
+
   color: #fff;
   font-weight: 500;
   font-size: 18px;
@@ -89,21 +96,24 @@
 }
 
 .hero-content__play-button {
-  border-radius: 36px;
+  border: none;
   outline: none;
-  border: 1px solid rgba(0, 0, 0);
-  background: none;
+  background: transparent;
+
   display: flex;
   align-items: center;
+  
   font-size: 16px;
   line-height: 19px;
   color: var(--black-200);
   font-family: var(--plus-jakarta-sans);
+
   cursor: pointer;
 }
 
 .hero-content__play-button img {
   margin-right: 12px;
+
   width: 46px;
   height: 46px;
   object-fit: contain;
@@ -111,10 +121,12 @@
 
 .hero-content__testimonial {
   padding: 32px 64px;
+
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  background: var(--color-white);
+
+  background: var(--color-white)
 }
 
 .hero-content__customer {
@@ -125,8 +137,9 @@
 .hero-content__customer h4 {
   font-size: 62px;
   font-weight: 400;
-  font-family: var(--playfair-display);
+  font-family: var(--playfair-display)
 }
+
 .hero-content__customer p {
   font-size: 16px;
   font-weight: 400;
@@ -137,11 +150,13 @@
 
 .hero-content__review {
   flex: 1;
-  font-size: 16px;
-  line-height: 19px;
-  color: var(--black-200);
-  font-family: var(--plus-jakarta-sans);
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding-left: 20px;
+  border-left: 1px solid rgba(2, 2, 2, 0.1);
+  min-width: 200px;
 }
 
 .hero-content__review img {
@@ -156,5 +171,5 @@
   line-height: 32px;
   font-family: var(--plus-jakarta-sans);
   color: var(--secondary-color);
-  opacity: 0.7;
+  opacity: 0.8
 }
