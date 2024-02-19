@@ -19,5 +19,5 @@ This is a persona project to showcase my HTML, CSS and JavaScript skills by crea
 2. Open the index.html file in a web browser. 
 
 ## Additional Notes:
-- This is a work in progress, and I'm always looking for ways to improve it. 
+- The project is completed, however, I'm always looking for ways to improve it. 
 - Feel free to provide feedback or suggestions. 
